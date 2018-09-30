@@ -23,6 +23,8 @@ public class Main extends Application {
 	private boolean zeigeTeilScore = false;
 	private static int startSeed = 90;
 	
+	static final int procCount = Runtime.getRuntime().availableProcessors();
+
 	@Override
 	public void start(Stage primaryStage) {		
 		try {
