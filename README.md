@@ -73,6 +73,7 @@ Vielen Dank an die StuRa der HSMW für das Sponsoring der Preise.
 2. Funktionen und Klassen dürfen nach Belieben hinzugefügt werden.
 3. Die Abgabe erfolgt ausschließlich als Fork über github. Bitte erzeugt auch gleich eine jar-Datei.
 4. Strengt euch selber an. Eine Kopie einer bestehenden Lösung als Abgabe führt zwangsläufig zur Disqualifikation.
+5. Die Liste der Städte darf nicht verändert werden.
 
 # Tipps
 0. Nutzt die euch zur Verfügung gestellte Zeit. Eine bessere Lösung erhöht den Score wesentlich stärker, als verbleibende freie Zeit.

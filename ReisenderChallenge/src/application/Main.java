@@ -21,6 +21,7 @@ public class Main extends Application {
 	private int breite = 700;
 	private int hohe = breite;
 	private boolean zeigeTeilScore = false;
+	private static int startSeed = 90;
 	
 	@Override
 	public void start(Stage primaryStage) {		
@@ -36,7 +37,6 @@ public class Main extends Application {
 			primaryStage.show();
 
 			// alles Nötige generieren
-			int startSeed = 90;
 			System.out.print("Erstelle Seeds ... ");
 			long[] seeds = seedGenerator(startSeed, 10);
 			/* tests mit:
@@ -110,6 +110,8 @@ public class Main extends Application {
 	
 	public static void main(String[] args)
 	{		
+		if (args.length > 0)
+			startSeed = Integer.parseInt(args[0]);
 		launch(args);
 	}
 	
